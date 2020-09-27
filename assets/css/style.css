@@ -1,0 +1,156 @@
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #b5bbbb;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    background-color: #02171a;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    
+}
+
+header h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+        margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  /* Hero Section */
+
+.hero {
+    background-image: url("../images/hero-image.jpg"); 
+    background-size: cover;
+    background-position: 80%;  
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 500px;
+}
+
+.hero h2 {
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+ /* About Me */
+.intro {
+    max-width: 100%;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto; 
+    grid-gap: 10px; 
+}
+  
+ .intro-h2 {
+     display: flex;
+     color: black;
+     width: 100px;
+     text-align: right;
+     justify-self: end;
+     padding-right: 20px;
+     padding-top: 0;
+     font-size: 20px;
+     border-right-color: darkblue;    
+ }
+
+ .intro-p {
+    color: brown;
+    grid-column: 2/ span 4;
+   
+  
+     
+ }
+    
+.work {
+    max-width: 100%;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;   
+     
+}
+
+.work-h2 {
+    
+    color: black;
+    width: 100px;
+    text-align: right;
+    justify-self: end;
+    padding-right: 20px;
+    padding-top: 0;
+    font-size: 20px;
+    border-right-color: darkblue;    
+}
+
+.work-img {
+    display: flex;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    width: 215px;
+    height: 215px;
+    grid-column: 2/ span 4;
+    grid-row: 1/ span 3;
+    
+    color: #fce138;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+
+    
+    
+
+
