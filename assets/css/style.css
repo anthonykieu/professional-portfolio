@@ -70,15 +70,25 @@ header nav ul li a:hover {
     background-position: 80%;  
     background-attachment: fixed; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-end;
-    height: 500px;
+    height: 400px;
+   
+}
+
+.my-img {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    margin-right: 150px;
+    margin-bottom: 160px;
 }
 
 .hero h2 {
     padding-right: 20px;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
  /* About Me */
@@ -152,6 +162,7 @@ header nav ul li a:hover {
 .work-img:hover {
     width: 300px;
     height: 300px;
+    font-size: 55px;
  }
 
 .contact {
@@ -182,13 +193,10 @@ header nav ul li a:hover {
 
 .info-a {
     color: black;
-    display: flex;
-    
+    display: flex;   
     grid-column: 2/ span 3;
     grid-row: 1/ -1;
     margin: 40px 0;
-    
-
 }
 
 .social-media {
@@ -199,7 +207,6 @@ header nav ul li a:hover {
     padding-left: 20px;
     align-items: center;
     justify-content: stretch;
-    
 }
 
 .fa {
@@ -210,40 +217,100 @@ header nav ul li a:hover {
     text-decoration: none;
     border-radius: 50%;
     margin: 3px;
-    
-  }
+}
   
   /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-  }
+}
   
   /* Set a specific color for each brand */
   
   /* Facebook */
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
-    color: white;
-    
-  }
+    color: white; 
+}
   
   /* Twitter */
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
+}
 
-  .fa-instagram {
+.fa-instagram {
     background: #125688;
     color: white;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
+}
   
-    
-    
+.resume {
+    color: black;
+    margin-left: 100px;
+}    
+   
+.resume h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.schools {
+    margin-left: 20px;
+}
 
+.certifications h4 {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {  
+header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+}
+
+header h1 {
+        width: 100%;
+        text-align: center;
+}
+
+header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+}
+
+header nav ul li a {
+        font-size: 20px;
+}
+
+.hero {
+    justify-content: center;
+}
+
+.hero h2 {
+        font-size: 35px;
+        display: flex;
+        flex-wrap: warp;
+        text-align: center;
+        
+}
+
+     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero {
+        justify-content: center;
+    }
+    
+    .hero h2 {
+        font-size: 35px;
+        display: flex;
+        flex-wrap: warp;
+        text-align: center;
+        
+        
+}
