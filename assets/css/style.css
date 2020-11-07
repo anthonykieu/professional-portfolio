@@ -100,9 +100,24 @@ header nav ul li a:hover {
     grid-template-rows: auto; 
     grid-gap: 10px; 
 }
-  
+/* .col-10{
+    border: none;
+} */
+.rowAboutMe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
  .intro-h2 {
-     display: flex;
+    color: black;
+    width: 100px;
+    text-align: right;
+    justify-self: end;
+    padding-right: 20px;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    border-right-color: darkblue; 
+     /* display: flex;
      color: black;
      width: 100px;
      text-align: right;
@@ -110,13 +125,15 @@ header nav ul li a:hover {
      padding-right: 20px;
      padding-top: 0;
      font-size: 20px;
-     border-right-color: darkblue;    
+     border-right-color: darkblue;     */
  }
 
  .intro-p {
     color: brown;
-    grid-column: 2/ span 3;
-   
+    /* grid-column: 2/ span 3; */
+    margin-top: 10px;
+   padding-left: 10px;
+   font-size: 20px;
   
      
  }
@@ -139,7 +156,8 @@ header nav ul li a:hover {
     justify-self: end;
     padding-right: 20px;
     padding-top: 0;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
     border-right-color: darkblue;  
      
 }
@@ -152,19 +170,53 @@ header nav ul li a:hover {
     height: 215px;
     grid-column: 2/ span 1;
     grid-row: 1/-1;
-    
+    /* margin-left: 10px; */
     color: #fce138;
     text-align: center;
     font-weight: bold;
     font-size: 40px;
+    /* padding: 5px; */
+}
+.work-livingRoom {
+    display: flex;
+    background-image: url("../images/fireplace.jpg");
+    background-size: cover;
+    width: 215px;
+    height: 215px;
+    grid-column: 2/ span 1;
+    grid-row: 1/-1;
+    margin-left: 10px;
+    color: #fce138;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 40px;
     padding: 5px;
 }
-.work-img:hover {
-    width: 300px;
-    height: 300px;
-    font-size: 55px;
+.work-livingRoom:hover {
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    color: aliceblue;
  }
-
+.work-cards{
+    display: flex;
+    justify-content: space-between 10px;
+}
+.work-img:hover {
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    color: aliceblue;
+ }
+.contactInfo{
+    padding-top: 15px;
+}
+ .address{
+     color: black;
+     background-color: white;
+     padding-left: 10px;
+ }
 .contact {
     max-width: 100%;
     min-width: 200px;
@@ -211,7 +263,10 @@ header nav ul li a:hover {
     min-width: 200px;
     
 }
-
+.card{
+    color: black;
+    padding-left: 10px;
+}
 .fa {
     padding: 20px;
     font-size: 40px;

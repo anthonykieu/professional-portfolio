@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pro Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
     <header>
         <h1> Anthony Kieu</h1>
@@ -22,39 +28,190 @@
                 </li>
                 <li>
                     <a href="#resume">Resume</a>
-                </li> 
+                </li>
             </ul>
         </nav>
-    </header> 
-<!-- "hero" section -->
+    </header>
+    <!-- "hero" section -->
 
     <section class="hero">
         <div class="my-img">
             <img src="./assets/images/0.jpeg" alt="" />
         </div>
         <h2>Professional Portfolio</h2>
-        
+
     </section>
 
     <!-- "about me" section -->
-    <section id="about-me" class="intro">
-        
-            <div class="intro-h2">
-                <h2>About Me</h2>
-            </div>
-            <div class="intro-p">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, consequatur excepturi fuga eius unde, cum obcaecati mollitia commodi pariatur omnis alias corporis voluptas. Eligendi, fugiat. Autem consequuntur dolorum assumenda perspiciatis?
+    <!-- <section id="about-me" class="intro">
+
+        <div class="intro-h2">
+            <h2>About Me</h2>
+        </div>
+        <div class="intro-p">
+            <p>
+                Passionate about bringing web designs to life.
                 <br>
-                <br/>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est repellat molestiae eaque iusto, quos dicta magnam corrupti facere ipsum minus, quae ipsam voluptatibus quasi blanditiis labore eligendi, illum quia!
-                </p>  
+                <br />
+                Experienced in HTML, CSS, Javascript, JQuery, MomentJS, Materialize CSS, and Bootstrap.
+            </p>
+        </div>
+
+    </section> -->
+    <div class="container">
+        <div class="row rowAboutMe">
+            <div id="about-me" class="col intro-h2">
+                About Me
             </div>
-        
-    </section>
+            <div class="col-10">
+                <div class="card">
+                    <div class="intro-p">
+                        <p>
+                            Passionate about bringing web designs to life.
+                            <br>
+                            <br />
+                            Experienced in HTML, CSS, Javascript, JQuery, MomentJS, Materialize CSS, and Bootstrap.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="work" class="col work-h2">
+                Work
+            </div>
+            <div class="col-10 work-cards">
+                <div class="card work-img" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <a href="https://anthonykieu.github.io/run-buddy/">Run Buddy</a>
+                </div>
+                <div class="card work-livingRoom" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <a href="https://yooperjb.github.io/Living-Room/">Living Room</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row rowAboutMe">
+            <div id="contact" class="col intro-h2 contactInfo">
+                Contact Information
+            </div>
+            <div class="col-10">
+                <div class="card address" style="width: 18rem;">
+                    <address>
+                        ### Some Street <br />
+                        Some Town, Some <br />
+                        State 12345<br />
+                        P: ###.###.####<br />
+                        E: <a href="mailto:###@gmail.com">###@gmail.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row rowAboutMe">
+            <div id="resume" class="col intro-h2">
+                Resume
+            </div>
+            <div class="col-10">
+                <div class="card">
+                    <div>
+                        <h3>
+                            Experience
+                        </h3>
+
+                        <div>
+                            <h4>
+                                Senior Engineer II
+                            </h4>
+                            <ul>
+                                <li>
+                                    <p>Develop innovative products based on consumer insight</p>
+                                </li>
+                                <li>
+                                    <p>Qualify product and process changes that meet FDA requirements</p>
+                                </li>
+                                <li>
+                                    <p>Scale product froms concept to commercial</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4>
+                                Quality Assurance Specialist
+                            </h4>
+                            <ul>
+                                <li>
+                                    <p>Coordinate and evaluate factory product and process changes</p>
+                                </li>
+                                <li>
+                                    <p>Lead the development of quality infrastructure such as process control plans</p>
+                                </li>
+                                <li>
+                                    <p>Develop statistical process charts to monitor process conditions</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4>
+                                Manufacturing Quality Leader
+                            </h4>
+                            <ul>
+                                <li>
+                                    <p>Subject matter expert for product or process changes at the manufacturing level
+                                        including the
+                                        implementation of new product launches</p>
+                                </li>
+                                <li>
+                                    <p>Lead the execution of a quality management system</p>
+                                </li>
+                                <li>
+                                    <p>Lead manufacturing quality investigation due to product quality deviations</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Education
+                        </h3>
+
+                        <div class="schools">
+                            <h4>University of Richmond</h4>
+                            <p>2005 - 2008</p>
+                            <P>Master of Business Administration</P>
+
+                            <h4>Virginia Commonwealth University</h4>
+                            <p>1999 - 2002</p>
+                            <P>B.S Chemical Engineering / Chemistry</P>
+                        </div>
+                    </div>
+
+                    <div class="certifications">
+                        <h3>
+                            Certifications
+                        </h3>
+
+                        <h4>Project Management Professional (PMP)</h4>
+                        <h4>Agile Scrum Master</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- "work" section -->
-    <section id="work" class="work">
+    <!-- <section id="work" class="work">
         <div class="work-h2">
             <h2>Work</h2>
         </div>
@@ -63,122 +220,35 @@
                 <a href="https://anthonykieu.github.io/run-buddy/">Run Buddy</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- "contact me" section -->
-    <section id="contact" class="contact">
-       
-            <div class="info-h2">
-                <h2>Contact Information</h2>
-            </div>
+    <!-- <section id="contact" class="contact">
 
-            <div class="info-a"> 
-                <address>
-                    ### Some Street <br />
-                    Some Town, Some <br />
-                    State 12345<br />
-                    P: ###.###.####<br />
-                    E: <a href="mailto:###@gmail.com">###@gmail.com</a>
-                </address>
-            </div>
-            
-            <div class="social-media"> 
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a> <br />
-                <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a> <br />
-                <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a> <br />
-                <a href="https://www.linkedin.com/in/anthony-kieu-4315546a/" class="fa fa-linkedin"></a> <br />
-            </div>
-        
-    </section>
-
-    <!-- "resume" section -->
-    <section id="resume" class="resume">
-       
         <div class="info-h2">
-            <h2>Resume</h2>
-        </div>
-        <div>
-            <h3>
-                Experience
-            </h3>
-        
-            <div>
-                <h4>
-                    Senior Engineer II
-                </h4>
-                <ul>
-                    <li>
-                        <p>Develop innovative products based on consumer insight</p>
-                    </li>
-                    <li>
-                        <p>Qualify product and process changes that meet FDA requirements</p>
-                    </li>
-                    <li>
-                        <p>Scale product froms concept to commercial</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>
-                    Quality Assurance Specialist
-                </h4>
-                <ul>
-                    <li>
-                        <p>Coordinate and evaluate factory product and process changes</p>
-                    </li>
-                    <li>
-                        <p>Lead the development of quality infrastructure such as process control plans</p>
-                    </li>
-                    <li>
-                        <p>Develop statistical process charts to monitor process conditions</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h4>
-                    Manufacturing Quality Leader
-                </h4>
-                <ul>
-                    <li>
-                        <p>Subject matter expert for product or process changes at the manufacturing level including the implementation of new product launches</p>
-                    </li>
-                    <li>
-                        <p>Lead the execution of a quality management system</p>
-                    </li>
-                    <li>
-                        <p>Lead manufacturing quality investigation due to product quality deviations</p>
-                    </li>
-                </ul>
-            </div>
+            <h2>Contact Information</h2>
         </div>
 
-        <div>
-            <h3>
-                Education
-            </h3>
-        
-            <div class="schools">
-                <h4>University of Richmond</h4>
-                <p>2005 - 2008</p>
-                <P>Master of Business Administration</P>
-
-                <h4>Virginia Commonwealth University</h4>
-                <p>1999 - 2002</p>
-                <P>B.S Chemical Engineering / Chemistry</P>
-            </div>
+        <div class="info-a">
+            <address>
+                ### Some Street <br />
+                Some Town, Some <br />
+                State 12345<br />
+                P: ###.###.####<br />
+                E: <a href="mailto:###@gmail.com">###@gmail.com</a>
+            </address>
+        </div> -->
+    <!-- 
+        <div class="social-media">
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a> <br />
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a> <br />
+            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a> <br />
+            <a href="https://www.linkedin.com/in/anthony-kieu-4315546a/" class="fa fa-linkedin"></a> <br />
         </div>
 
-        <div class="certifications">
-            <h3>
-                Certifications
-            </h3>
-    
-            <h4>Project Management Professional (PMP)</h4>
-            <h4>Agile Scrum Master</h4>
-        </div>
-</section>
+÷
 </body>
+
 </html>
