@@ -23,7 +23,7 @@ To test the advanced skills learned in HTML and CSS
 |   Name                 |         Date     
 |------------------------|------------------------|
 |Anthony Kieu            |     9/28/2020
-
+|Anthony Kieu            |     11/06/2020
 ---
 
 ## Links
