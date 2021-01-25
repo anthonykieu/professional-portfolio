@@ -164,7 +164,7 @@ header nav ul li a:hover {
 
 .work-img {
     display: flex;
-    background-image: url("../images/hero-bg.jpg");
+    /* background-image: url("../images/hero-bg.jpg"); */
     background-size: cover;
     width: 215px;
     height: 215px;
@@ -179,7 +179,7 @@ header nav ul li a:hover {
 }
 .work-livingRoom {
     display: flex;
-    background-image: url("../images/fireplace.jpg");
+    /* background-image: url("../images/fireplace.jpg"); */
     background-size: cover;
     width: 215px;
     height: 215px;
@@ -193,22 +193,53 @@ header nav ul li a:hover {
     font-size: 40px;
     padding: 5px;
 }
-.work-livingRoom:hover {
+/* .work-livingRoom:hover {
     width: 250px;
     height: 250px;
     font-size: 40px;
     color: aliceblue;
+ } */
+
+ .work-adventureSeries {
+    display: flex;
+    /* background-image: url("../images/adventureSeries.jpg"); */
+    background-size: cover;
+    width: 215px;
+    height: 215px;
+    grid-column: 2/ span 1;
+    grid-row: 1/-1;
+    margin-left: 10px;
+    color: #fce138;
+    text-align: center;
+   
+    
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.pTitle {
+    font-size: 20px;
+}
+ .card-img-top {
+     height: 175px;
  }
+/* .work-adventureSeries:hover {
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    color: aliceblue;
+ } */
 .work-cards{
     display: flex;
     justify-content: space-between 10px;
 }
-.work-img:hover {
-    width: 250px;
+/* .work-img:hover { */
+    /* width: 250px;
     height: 250px;
     font-size: 40px;
     color: aliceblue;
- }
+ } */
 .contactInfo{
     padding-top: 15px;
 }
